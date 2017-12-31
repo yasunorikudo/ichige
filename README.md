@@ -13,19 +13,19 @@ pip install -r requirements.txt
 ## 学習
 - 学習用データ[2,3,4]・評価用データ[1]
   ```
-  python scripts/train.py -t 1 2 3 -v 4
+  python scripts/train.py -t 2 3 4 -v 1 -o result1
   ```
 - 学習用データ[1,3,4]・評価用データ[2]
   ```
-  python scripts/train.py -t 1 2 3 -v 4
+  python scripts/train.py -t 1 3 4 -v 2 -o result2
   ```
 - 学習用データ[1,2,4]・評価用データ[3]
   ```
-  python scripts/train.py -t 1 2 3 -v 4
+  python scripts/train.py -t 1 2 4 -v 3 -o result3
   ```
 - 学習用データ[1,2,3]・評価用データ[4]
   ```
-  python scripts/train.py -t 1 2 3 -v 4
+  python scripts/train.py -t 1 2 3 -v 4 -o result4
   ```
 - その他オプション・ヘルプ
   ```
